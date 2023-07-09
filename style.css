@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: 0;
+  text-transform: capitalize;
 }
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #e1e1e1;
 }

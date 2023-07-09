@@ -4,16 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Document</title>
   </head>
   <body>
     <div class="container">
       <form action="">
-        <div class="form__header">header</div>
-        <div class="form__fields">fields</div>
-        <div class="form__remember">remember</div>
-        <div class="form__action">action</div>
-        <div class="form__register">register</div>
+        <div class="form__header">
+          <h1>login</h1>
+        </div>
+
+        <div class="form__fields">
+          <input type="text" placeholder="username" required />
+          <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="form__fields">
+          <input type="password" placeholder="password" required />
+          <i class="fa-solid fa-lock"></i>
+        </div>
+        <div class="form__remember">
+          <label><input type="checkbox" />remember me</label>
+          <label><a href="">forgot password?</a></label>
+        </div>
+        <div class="form__action">
+          <button type="submit" class="btn">login</button>
+        </div>
+        <div class="form__register">
+          <p>don't have an account?<a href="">register</a></p>
+        </div>
       </form>
     </div>
   </body>
